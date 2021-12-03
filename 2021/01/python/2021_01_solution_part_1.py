@@ -1,4 +1,8 @@
-with open('input.txt') as f:
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve(strict=True).parent
+
+with open(BASE_DIR / '../input.txt') as f:
     count = 0
     current = 0
     previous = 0
