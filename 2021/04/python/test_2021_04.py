@@ -1,4 +1,4 @@
-from .cod_2021_04_solution_part_1 import has_row, has_column
+from .aoc_2021_04_solution_part_1 import has_row, has_column
 
 def test_has_row_completed():
     data = [
