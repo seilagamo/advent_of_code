@@ -6,7 +6,7 @@ with open(BASE_DIR / '../input.txt') as f:
     # Load input
     clean_line = f.read().splitlines()
     internal_times = [int(internal_time) for internal_time in clean_line[0].split(',')]
-    print(internal_times)
+    # print(internal_times)
 
     count_0 = internal_times.count(0)
 
