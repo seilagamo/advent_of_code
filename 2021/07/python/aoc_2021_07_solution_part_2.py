@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent
 with open(BASE_DIR / '../input.txt') as f:
     # Load input
     clean_line = f.read().splitlines()
-    positions = [int(internal_time) for internal_time in clean_line[0].split(',')]
+    positions = [int(position) for position in clean_line[0].split(',')]
 
     min_fuel = 0
     optimal_position = 0
