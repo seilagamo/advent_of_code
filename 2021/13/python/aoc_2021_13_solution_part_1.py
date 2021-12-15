@@ -72,9 +72,6 @@ def main():
 
     fold_matrix(matrix, first_fold)
 
-    if first_fold[0] == 0:  # fold along y -> horizontal
-        pass
-
     # count dots
     print(f'Result: {count_dots(matrix)}')
 
